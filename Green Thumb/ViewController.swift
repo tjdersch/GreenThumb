@@ -2,7 +2,7 @@
 //  ViewController.swift
 //  Green Thumb
 //
-//  Created by Chuy Rocha on 11/3/16.
+//  Created by Leandro Rocha on 11/3/16.
 //  Copyright © 2016 Santa Cruz Growers. All rights reserved.
 //
 

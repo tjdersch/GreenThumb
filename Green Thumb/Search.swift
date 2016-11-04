@@ -2,7 +2,7 @@
 //  Search.swift
 //  Green Thumb
 //
-//  Created by Chuy Rocha on 11/4/16.
+//  Created by Leandro Rocha on 11/4/16.
 //  Copyright © 2016 Santa Cruz Growers. All rights reserved.
 //
 
