@@ -1,0 +1,304 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BEF2E1A91DCC264C00C4D7A4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEF2E1A81DCC264C00C4D7A4 /* AppDelegate.swift */; };
+		BEF2E1AB1DCC264C00C4D7A4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEF2E1AA1DCC264C00C4D7A4 /* ViewController.swift */; };
+		BEF2E1AE1DCC264C00C4D7A4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BEF2E1AC1DCC264C00C4D7A4 /* Main.storyboard */; };
+		BEF2E1B01DCC264C00C4D7A4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BEF2E1AF1DCC264C00C4D7A4 /* Assets.xcassets */; };
+		BEF2E1B31DCC264C00C4D7A4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BEF2E1B11DCC264C00C4D7A4 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		BEF2E1A51DCC264C00C4D7A4 /* Green Thumb.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Green Thumb.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BEF2E1A81DCC264C00C4D7A4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BEF2E1AA1DCC264C00C4D7A4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BEF2E1AD1DCC264C00C4D7A4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BEF2E1AF1DCC264C00C4D7A4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BEF2E1B21DCC264C00C4D7A4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BEF2E1B41DCC264C00C4D7A4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BEF2E1A21DCC264C00C4D7A4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BEF2E19C1DCC264C00C4D7A4 = {
+			isa = PBXGroup;
+			children = (
+				BEF2E1A71DCC264C00C4D7A4 /* Green Thumb */,
+				BEF2E1A61DCC264C00C4D7A4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BEF2E1A61DCC264C00C4D7A4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BEF2E1A51DCC264C00C4D7A4 /* Green Thumb.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BEF2E1A71DCC264C00C4D7A4 /* Green Thumb */ = {
+			isa = PBXGroup;
+			children = (
+				BEF2E1A81DCC264C00C4D7A4 /* AppDelegate.swift */,
+				BEF2E1AA1DCC264C00C4D7A4 /* ViewController.swift */,
+				BEF2E1AC1DCC264C00C4D7A4 /* Main.storyboard */,
+				BEF2E1AF1DCC264C00C4D7A4 /* Assets.xcassets */,
+				BEF2E1B11DCC264C00C4D7A4 /* LaunchScreen.storyboard */,
+				BEF2E1B41DCC264C00C4D7A4 /* Info.plist */,
+			);
+			path = "Green Thumb";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BEF2E1A41DCC264C00C4D7A4 /* Green Thumb */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BEF2E1B71DCC264C00C4D7A4 /* Build configuration list for PBXNativeTarget "Green Thumb" */;
+			buildPhases = (
+				BEF2E1A11DCC264C00C4D7A4 /* Sources */,
+				BEF2E1A21DCC264C00C4D7A4 /* Frameworks */,
+				BEF2E1A31DCC264C00C4D7A4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Green Thumb";
+			productName = "Green Thumb";
+			productReference = BEF2E1A51DCC264C00C4D7A4 /* Green Thumb.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BEF2E19D1DCC264C00C4D7A4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = "Santa Cruz Growers";
+				TargetAttributes = {
+					BEF2E1A41DCC264C00C4D7A4 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = BEF2E1A01DCC264C00C4D7A4 /* Build configuration list for PBXProject "Green Thumb" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BEF2E19C1DCC264C00C4D7A4;
+			productRefGroup = BEF2E1A61DCC264C00C4D7A4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BEF2E1A41DCC264C00C4D7A4 /* Green Thumb */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BEF2E1A31DCC264C00C4D7A4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BEF2E1B31DCC264C00C4D7A4 /* LaunchScreen.storyboard in Resources */,
+				BEF2E1B01DCC264C00C4D7A4 /* Assets.xcassets in Resources */,
+				BEF2E1AE1DCC264C00C4D7A4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BEF2E1A11DCC264C00C4D7A4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BEF2E1AB1DCC264C00C4D7A4 /* ViewController.swift in Sources */,
+				BEF2E1A91DCC264C00C4D7A4 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		BEF2E1AC1DCC264C00C4D7A4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BEF2E1AD1DCC264C00C4D7A4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BEF2E1B11DCC264C00C4D7A4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BEF2E1B21DCC264C00C4D7A4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BEF2E1B51DCC264C00C4D7A4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BEF2E1B61DCC264C00C4D7A4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BEF2E1B81DCC264C00C4D7A4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Green Thumb/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.santacruzgrowers.Green-Thumb";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		BEF2E1B91DCC264C00C4D7A4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Green Thumb/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.santacruzgrowers.Green-Thumb";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BEF2E1A01DCC264C00C4D7A4 /* Build configuration list for PBXProject "Green Thumb" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BEF2E1B51DCC264C00C4D7A4 /* Debug */,
+				BEF2E1B61DCC264C00C4D7A4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BEF2E1B71DCC264C00C4D7A4 /* Build configuration list for PBXNativeTarget "Green Thumb" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BEF2E1B81DCC264C00C4D7A4 /* Debug */,
+				BEF2E1B91DCC264C00C4D7A4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BEF2E19D1DCC264C00C4D7A4 /* Project object */;
+}
